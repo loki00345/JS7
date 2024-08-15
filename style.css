@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    width: 40%;
+    max-width: 400px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    margin: 5px;
+}
+
+.year-input {
+    width: 100px;
+}
+#year.year-input {
+    width: 80px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}

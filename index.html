@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calendar 7</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Календар</h1>
+        <div class="input-container">
+            <label for="month">Місяць: </label>
+            <input type="number" id="month" min="1" max="12" placeholder="1">
+            <label for="year">Рік: </label>
+            <input type="number" id="year" placeholder="1999" class="year-input">
+            <button type="number" onclick="generateCalendar()">Згенерувати календар</button>
+        </div>
+        <div id="calendar"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
